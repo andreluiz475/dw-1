@@ -1,0 +1,177 @@
+
+*{margin: 0;
+}
+
+#fundo{
+    background-image: url("../imagens/Sem título.png"); 
+    position: fixed;
+    width: 100%;
+    height: 125%; 
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    z-index: -1; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(49, 49, 49);;
+}
+
+a,h1,h3,h4,h5,li,p,strong {color: white;font-family: 'Arial', sans-serif;}
+
+button{background-color: rgb(145, 3, 3);}
+
+button{color: white}
+
+#apresentaçao {
+	display: flex;
+}
+
+
+
+#teste{
+    width: 30%;
+    Padding: 20px;
+    background-color:rgb(188, 0, 0);
+    Position: absolute;
+    margin: -25% 0px 0px 60%;
+}
+#diverção{
+    Position: absolute;
+    margin: -20% 0px 0px 5%;
+}
+
+#sol,#engrenagem{margin: 0px 0px 0px 10px;}
+
+#MODS,#DRIFT,#simulação,#fisica,#grafico,#Content_Manager,#realidade,#jogo,#video1,#VIDEO{
+    display: flex;
+   justify-content: center;
+   margin: 10px;
+}
+#logo,#pessoa{margin: 0px 0px 0px 10px;}
+
+#video{
+    align-content: center;
+}
+
+
+
+
+
+.carousel,.carouse2 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner,.carouse2-inner {
+    display: flex;
+    width: 100%;
+    animation: slide 10s infinite;
+}
+
+.carousel-item,.carouse2-inner {
+    width: 100%;
+    flex: 1 0 1%;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0%); }
+    16.66% { transform: translateX(-50%); }
+    33.33% { transform: translateX(-100%); }
+    50% { transform: translateX(-150%); }
+    66.66% { transform: translateX(-200%); }
+    83.33% { transform: translateX(-250%); }
+    100% { transform: translateX(0%); }
+}
+
+.navegador {
+    position: sticky;
+    top: 0;
+    background-color: rgb(188,0,0);
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.navegador ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navegador ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navegador ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+
+
+.letreiro:hover {
+    filter: invert(100%);
+}
+.letreiro {
+    transition: filter 0.3s;
+}
+#imagensVR{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3,auto);
+}
+
+
+#VR1, #VR2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+    
+#VR1 img, #VR2 img {
+    margin: 5px;}
+
+
+    #image {
+        transition: transform 0.3s ease;
+    }
+
+    #image:hover {
+        transform: translateY(-10px); 
+    }
+    #mapa1234{
+        display: flex;
+    }
+
+    #mapa123{
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(188, 0, 0);
+        border: solid black 3px;
+    }
+
+
+
+    #rodape{
+        background-position: center;
+        display: flex;}
+
+
+        .flex-container {
+            display: flex;                           
+            align-items: center;                     
+            justify-content: center;                 
+            background-color: rgb(188, 0, 0);      
+            padding: 20px;                           
+        }
+        
